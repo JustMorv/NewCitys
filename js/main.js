@@ -327,6 +327,16 @@ jQuery(document).ready(function($) {
       // alert('yay');
     })
   };
+
+
+
+$(".humburger_icons").on("click", humburger)
+   function  humburger(){
+  	 	$(".site-logo-list").toggle("humburger")
+  	 	  	 	
+  }
+
+
   OnePageNavigation();
 
 });
